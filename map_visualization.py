@@ -249,8 +249,8 @@ def main():
     Основная функция для создания карт
     """
     # Пути к файлам
-    GRID_DATA_PATH = '/Users/sultankarilov/Desktop/projects/decentra_2_4.0/grid_data.json'
-    CSV_PATH = '/Users/sultankarilov/Desktop/projects/decentra_2_4.0/grouped_vehicles_data.csv'
+    GRID_DATA_PATH = 'Archive/grid_data.json'
+    CSV_PATH = 'Archive/grouped_vehicles_data.csv'
     
     print("Создание интерактивных карт загруженности")
     print("=" * 45)

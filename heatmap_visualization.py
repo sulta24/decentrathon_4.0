@@ -369,7 +369,7 @@ def main():
     Основная функция для создания хитмапа загруженности
     """
     # Параметры конфигурации
-    CSV_PATH = '/Users/sultankarilov/Desktop/projects/decentra_2_4.0/grouped_vehicles_data.csv'
+    CSV_PATH = 'Archive/grouped_vehicles_data.csv'
     GRID_SIZE = 300  # Размер сетки (50x50 ячеек)
     
     print("Создание хитмапа загруженности дорожного движения")
