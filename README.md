@@ -1,33 +1,35 @@
 # Traffic Data Analysis
 
-Этот проект анализирует GPS-данные автомобилей, группирует их по траекториям и строит тепловую карту загруженности дорог.
+![Traffic Heatmap](speed_filter_map.png)
 
-## 1. Распаковка архива
-Сначала распакуйте архив **Archive.zip** в папку проекта.  
-Внутри должны появиться необходимые данные для анализа.
+This project analyzes vehicle GPS data, groups it by trajectories, and generates a heatmap showing road congestion levels.
 
-## 2. Установка зависимостей
-Установите Python-зависимости (лучше через виртуальное окружение):
+## 1. Extract the Archive
+First, extract **Archive.zip** into the project directory.  
+It should contain all the necessary data files for analysis.
+
+## 2. Install Dependencies
+Install the required Python dependencies (preferably in a virtual environment):
 ```bash
 pip install -r requirements.txt
 ```
-## 3. Анализ данных
-Запустите скрипт group_vehicles.py, чтобы:
 
-обработать и сгруппировать данные по автомобилям,
+## 3. Data Analysis
+Run the `group_vehicles.py` script to:
 
-посчитать статистику по траекториям,
-
-сохранить результат в grouped_vehicles_data.csv.
+- process and group vehicle data  
+- calculate trajectory statistics  
+- save the results to `grouped_vehicles_data.csv`
 
 ```bash
 python group_vehicles.py
 ```
 
-4. Визуализация тепловой карты
-Запустите скрипт heatmap_visualization.py, чтобы построить тепловую карту и сохранить её в файл heatmap.png.
+## 4. Heatmap Visualization
+Run the `heatmap_visualization.py` script to generate the heatmap and save it as `heatmap.png`.
 
 ```bash
 python heatmap_visualization.py
 ```
-После этого вы получите готовую визуализацию дорожной загруженности.
+
+After running it, you’ll get a visual representation of traffic congestion across different roads.
